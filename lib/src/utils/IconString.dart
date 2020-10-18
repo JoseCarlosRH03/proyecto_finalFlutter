@@ -15,9 +15,9 @@ final _icons = <String, IconData>{
   'producto': Icons.shopping_bag_rounded,
 };
 
-Icon getIcon(String nombreIcon) {
+Icon getIcon(String nombreIcon, {color = 0xffffffff}) {
   return Icon(
     _icons[nombreIcon],
-    color: Color(0xffffffff),
+    color: Color(color),
   );
 }

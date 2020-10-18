@@ -12,7 +12,7 @@ class FacturaPage extends StatelessWidget {
       body: Stack(
         children: [
           HeaderCurbo(titulo: "Factura"),
-          DetalleFactura(sizeMagin: 115, sizeheight: 0.75),
+          DetalleFactura(sizeMagin: 115, sizeheight: 0.8),
           BottomBar(
             marginButon: 0.932,
           )

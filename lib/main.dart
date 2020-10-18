@@ -22,7 +22,6 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
         debugShowCheckedModeBanner: false,
         title: 'Facturador',
-        //home: HomePage(),
         initialRoute: '/',
         routes: <String, WidgetBuilder>{
           '/': (BuildContext context) => HomePage(),
