@@ -25,7 +25,7 @@ class DetalleFactura extends StatelessWidget {
                 icon: getIcon('arrow_back_ios_outlined',
                     color: Colors.black.value),
                 onPressed: () {
-                  Navigator.pushNamed(context, 'cliente');
+                  Navigator.pop(context, 'cliente');
                 },
               ),
               title: Row(

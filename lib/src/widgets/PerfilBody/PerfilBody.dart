@@ -33,7 +33,7 @@ class PerfilBody extends StatelessWidget {
                   color: Color(0xffA8DADC),
                   icon: getIcon('arrow_back_ios_outlined'),
                   onPressed: () {
-                    Navigator.pushNamed(context, '/');
+                    Navigator.pop(context, '/');
                   },
                 ),
                 Positioned(
